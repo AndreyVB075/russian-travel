@@ -1,0 +1,28 @@
+.place__website_url {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #aaa;
+    margin-top: 0px;
+}
+@media screen and (max-width:1152px) {
+    .place__website_url {
+        max-width: 456px;
+        line-height: 1.7;
+
+    }
+}
+@media screen and (max-width:896px) {
+    .place__website_url {
+        max-width: 352px;
+        line-height: 12px;
+        
+    }
+}
+@media screen and (max-width:544px) {
+    .place__website_url {
+        max-width: 288px;
+    }
+}

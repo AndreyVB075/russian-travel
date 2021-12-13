@@ -1,0 +1,20 @@
+.place__paragraph_top {
+    margin-top: 0px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 1.63;
+    font-weight: 400;
+}
+@media screen and (max-width:896px) {
+    .place__paragraph_top {
+        font-size: 16px;
+        line-height: 1.63;
+    }
+}
+@media screen and (max-width:544px) {
+    .place__paragraph_top {
+        max-width: 288px;
+        margin-left: 1.25px;
+        margin-right: 8.28x;
+    }
+}

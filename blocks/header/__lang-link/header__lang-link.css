@@ -1,0 +1,6 @@
+.header__lang-link{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: end;
+}
