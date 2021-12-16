@@ -7,12 +7,12 @@
     line-height: 58px;
     margin: 0px;
 }
-@media screen and (max-width:896px) {
+@media screen and (max-width:999px) {
     .intro__title {
         max-width: 720px;
     }
 }
-@media screen and (max-width:544px) {
+@media screen and (max-width:767px) {
     .intro__title {
         max-width: 288px;
         font-size: 32px;

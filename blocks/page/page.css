@@ -1,25 +1,10 @@
 .page {
+    font-family: "Inter", "Arial", sans-serif;
     padding: 28px 0px 24px 0px;
     background-color: #2a2c2f;
-    /* min-width: 320px; */
     max-width: 1280px;
     display: flex;
     flex-direction: column;
-    /* margin: 0; */
     color: #ffffff;
   }
-  /* @media screen and (max-width:1152px) {
-    .page {
-      padding: 28px 41px 24px 55px;
-    }
-}
-  @media screen and (max-width:896px) {
-    .page {
-      padding: 28px 24px 24px 24px;
-    }
-}
-  @media screen and (max-width:544px) {
-    .page {
-      padding: 16px 16px 24px 16px;
-    }
-} */
+  

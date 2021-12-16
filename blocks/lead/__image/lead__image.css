@@ -3,21 +3,21 @@
     height: 615px;
     object-fit: cover;
 }
-@media screen and (max-width:1152px) {
+@media screen and (max-width:1250px) {
     .lead__image {
         max-width: 928px;
         height: 580px;
     }
 }
-@media screen and (max-width:896px) {
+@media screen and (max-width:999px) {
     .lead__image {
         max-width: 768px;
         height: 480px;
     }
 }
-@media screen and (max-width:544px) {
+@media screen and (max-width:767px) {
     .lead__image {
-        max-width: 320px;
+        max-width: 100%;
         height: 200px;
         padding: 0px 2px 0px 2px;
     }

@@ -29,21 +29,21 @@
 .cover__text:hover::before {
     opacity: 0.8;
 }
-@media screen and (max-width:1152px) {
+@media screen and (max-width:1250px) {
     .cover__text {
         max-width: 1024px;
         min-height: 640px;
         margin: 0px;
     }
 }
-@media screen and (max-width:896px) {
+@media screen and (max-width:999px) {
     .cover__text {
         max-width: 768px;
         min-height: 480px;
         margin: 0px; 
     }
 }
-@media screen and (max-width:544px) {
+@media screen and (max-width:767px) {
     .cover__text {
         max-width: 320px;
         min-height: 200px;

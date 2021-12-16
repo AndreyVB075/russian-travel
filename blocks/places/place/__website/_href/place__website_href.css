@@ -3,6 +3,7 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
+    align-content: flex-end;
     color: #fff;
 }
 .place__website_href:hover {

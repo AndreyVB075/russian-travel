@@ -3,26 +3,9 @@
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    grid-column: 6/7;
+    margin: 92px 0px 0px 0px;
 }
-/* @media screen and (max-width:1152px) {
-    .footer__copyright {
-        max-width: 186px;
-        margin-right: 48px;
-        grid-column: 6/7;
-    }
-} */
-/* @media screen and (max-width:896px) {
-    .footer__copyright {
-        max-width: 186px;
-        margin-right: 0px;
-    }
-} */
-@media screen and (max-width:544px) {
+@media screen and (max-width:767px) {
     .footer__copyright {
         max-width: 186px;
         margin-top: 13px;

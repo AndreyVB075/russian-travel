@@ -1,4 +1,5 @@
 .place__website_url {
+    max-width: 484px;
     font-family: 'Inter';
     font-size: 12px;
     line-height: 12px;
@@ -11,14 +12,12 @@
     .place__website_url {
         max-width: 456px;
         line-height: 1.7;
-
     }
 }
 @media screen and (max-width:896px) {
     .place__website_url {
         max-width: 352px;
         line-height: 12px;
-        
     }
 }
 @media screen and (max-width:544px) {

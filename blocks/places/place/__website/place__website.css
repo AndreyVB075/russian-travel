@@ -9,4 +9,5 @@
     position: relative;
     align-items: flex-start;
     justify-content: flex-end;
+    min-height: 46px;
 }

@@ -5,13 +5,13 @@
     line-height: 1.63;
     font-weight: 400;
 }
-@media screen and (max-width:896px) {
+@media screen and (max-width:999px) {
     .place__paragraph_top {
         font-size: 16px;
         line-height: 1.63;
     }
 }
-@media screen and (max-width:544px) {
+@media screen and (max-width:767px) {
     .place__paragraph_top {
         max-width: 288px;
         margin-left: 1.25px;

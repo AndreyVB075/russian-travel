@@ -1,6 +1,5 @@
 .lead__title {
     max-width: 720px;
-    /* min-height: 200px; */
     font-size: 96px;
     line-height: 100px;
     font-weight: 800;
@@ -8,35 +7,25 @@
     text-align: center;
     justify-self: center;
     margin: 0px auto;
+    box-sizing: border-box;
     /* border: 1px solid green; */
 }
 @media screen and (max-width:1152px) {
     .lead__title {
-        margin: 0px 104px;
+        margin: 0px auto;
     }
 }
 @media screen and (max-width:896px) {
     .lead__title {
         width: 100%;
-        /* margin: 0px 24px 0px 8px; */
         margin: 0px auto;
     }
 }
-@media screen and (max-width:719px) {
+@media screen and (max-width:767px) {
     .lead__title {
-        
         width: 100%;
         font-size: 40px;
         line-height: 44px;
         margin: 0px;
-    }
-}
-@media screen and (max-width:544px) {
-    .lead__title {
-        width: 100%;
-        /* min-height: 88px; */
-        font-size: 40px;
-        line-height: 44px;
-        /* margin: 0px 16px; */
     }
 }
