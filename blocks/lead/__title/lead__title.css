@@ -8,7 +8,6 @@
     justify-self: center;
     margin: 0px auto;
     box-sizing: border-box;
-    /* border: 1px solid green; */
 }
 @media screen and (max-width:1152px) {
     .lead__title {

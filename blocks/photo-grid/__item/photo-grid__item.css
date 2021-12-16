@@ -3,7 +3,6 @@
     height: 213px;
     object-fit: contain;
     object-position: center;
-    /* box-sizing: content-box; */
 }
 @media screen and (max-width:1250px) {
     .photo-grid__item {
