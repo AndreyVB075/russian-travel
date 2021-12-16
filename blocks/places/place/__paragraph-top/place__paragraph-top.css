@@ -1,19 +1,18 @@
-.place__paragraph_bottom {
-    margin-top: 26px;
+.place__paragraph-top {
+    margin-top: 0px;
     font-family: 'Inter';
     font-size: 18px;
     line-height: 1.63;
     font-weight: 400;
-    margin-bottom: 0px;
 }
 @media screen and (max-width:999px) {
-    .place__paragraph_bottom {
+    .place__paragraph-top {
         font-size: 16px;
         line-height: 1.63;
     }
 }
 @media screen and (max-width:767px) {
-    .place__paragraph_bottom {
+    .place__paragraph-top {
         max-width: 288px;
         margin-left: 1.25px;
         margin-right: 8.28px;
