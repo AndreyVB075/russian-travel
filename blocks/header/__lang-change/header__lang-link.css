@@ -1,4 +1,4 @@
-.header__lang-link-en {
+.header__lang-link {
     color: #ffffff;
     text-decoration: none;
     max-width: 29px;
@@ -13,18 +13,18 @@
     font-family: 'Inter', "Arial ", sans-serif;
 }
 @media screen and (max-width:1250px) {
-    .header__lang-link-en {
+    .header__lang-link {
         margin-top: 18px;
         margin-right: 0px;
     }
 }
 @media screen and (max-width:999px) {
-    .header__lang-link-en {
+    .header__lang-link {
         margin-right: 24px;
     }
 }
 @media screen and (max-width:767px) {
-    .header__lang-link-en {
+    .header__lang-link {
         max-width: 22px;
         margin-top: 2px;
         margin-right: 2px;
