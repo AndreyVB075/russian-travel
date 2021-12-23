@@ -4,12 +4,13 @@
     grid-template-rows: 660px 584px 584px 660px 584px;
     grid-template-columns: 980px;
     gap: 80px;
-    margin: 82px 123px 0px 167px;
+    margin: 82px auto 0px auto;
+    box-sizing: border-box;
 }
 @media screen and (max-width:1250px) {
     .places {
         max-width: 928px;
-        margin: 74px 62px 0px 34px;
+        margin: 74px 14px 0px auto;
         grid-template-rows: 640px 584px 584px 640px 584px;
     }
 }
@@ -17,14 +18,16 @@
     .places {
         max-width: 720px;
         grid-template-rows: 581px 535px 483px 434px 484px;
-        margin: 88px 24px 0px 24px;
+        gap: 72px;
+        margin: 95px 24px 0px 24px;
     }
 }
 @media screen and (max-width:767px) {
     .places {
+        max-width: 320px;
         margin: 64px 0px 0px 0px;
         grid-template-columns: 320px;
         grid-template-rows: auto;
-        margin-top: 58px;
+        gap: 49px;
     }
 }

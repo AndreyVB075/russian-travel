@@ -2,28 +2,25 @@
     max-width: 984px;
     display: flex;
     flex-direction: column;
-    margin: 50px 114px 0px 172px;
+    margin: 64px 66px 0px 124px;
     position: relative;
     box-sizing: border-box;
 }
 @media screen and (max-width:1250px) {
     .lead {
         max-width: 928px;
-        min-height: 962px;
-        margin: 48px 48px 0px 48px;
+        margin: 48px 0px 0px 0px;
     }
 }
 @media screen and (max-width:999px) {
     .lead {
         max-width: 768px;
-        min-height: auto;
-        margin: 12px 8px 0px 8px;
+        margin-top: 12px;
     }
 }
 @media screen and (max-width:767px) {
     .lead {
         width: 100%;
-        min-height: auto;
-        margin: 48px 0px 0px 0px;
+        margin: 39px 0px 0px 0px;
     }
 }

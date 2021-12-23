@@ -5,8 +5,8 @@
     grid-auto-rows: minmax(76px, 152px) 460px;
     gap: 48px 36px;
     grid-template-areas:
-    place__title place__website
-    place__image place__paragraph;
+    "place__title place__website"
+    "place__image place__paragraph";
     box-sizing: border-box;
 }
 @media screen and (max-width:1250px) {
@@ -29,8 +29,13 @@
     .place {
         max-width: 320px;
         grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-        grid-template-rows: 35px 46px 320px 519px;
-        gap: 32px;
+        grid-template-rows: 35px 46px 320px minmax(458px, auto);
+        gap: 31.5px;
+        grid-template-areas:
+        "place__title"
+        "place__website"
+        "place__image"
+        "place__paragraph";
     }
 }
 

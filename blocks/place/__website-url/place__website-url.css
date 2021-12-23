@@ -1,27 +1,29 @@
-.place__website_url {
+.place__website-url {
     max-width: 484px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Arial ", sans-serif;
     font-size: 12px;
     line-height: 12px;
     font-weight: 400;
     letter-spacing: 2px;
     color: #aaa;
     margin-top: 0px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
 }
 @media screen and (max-width:1152px) {
-    .place__website_url {
+    .place__website-url {
         max-width: 456px;
         line-height: 1.7;
     }
 }
 @media screen and (max-width:896px) {
-    .place__website_url {
+    .place__website-url {
         max-width: 352px;
         line-height: 12px;
     }
 }
 @media screen and (max-width:544px) {
-    .place__website_url {
+    .place__website-url {
         max-width: 288px;
     }
 }

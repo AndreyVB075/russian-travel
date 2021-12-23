@@ -1,21 +1,21 @@
-.place__website_href {
-    font-family: 'Inter';
+.place__website-href {
+    font-family: 'Inter', "Arial ", sans-serif;
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
     align-content: flex-end;
     color: #fff;
 }
-.place__website_href:hover {
+.place__website-href:hover {
     opacity: .8;
 }
 @media screen and (max-width:896px) {
-    .place__website_href {
+    .place__website-href {
         max-width: 352px;
     }
 }
 @media screen and (max-width:544px) {
-    .place__website_href {
+    .place__website-href {
       max-width: 288px;  
     }
 }

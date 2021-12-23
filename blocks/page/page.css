@@ -1,10 +1,32 @@
 .page {
     font-family: "Inter", "Arial", sans-serif;
-    padding: 28px 0px 24px 0px;
+    padding: 28px 48px 24px 48px;
     background-color: #2a2c2f;
     max-width: 1280px;
     display: flex;
     flex-direction: column;
+    position: relative;
     color: #ffffff;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+  @media screen and (max-width:1250px) {
+    .page {
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+  @media screen and (max-width:999px) {
+    .page {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 28px 0px 24px 0px; 
+    }
+}
+  @media screen and (max-width:767px) {
+    .page {
+      max-width: 320px;
+      padding: 0px 0px 24px 0px; 
+    }
+}

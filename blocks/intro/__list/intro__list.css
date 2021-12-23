@@ -2,11 +2,12 @@
     max-width: 690px;
     list-style-type: none;
     padding-left: 0px;
-    font-family: 'Inter';
+    font-family: 'Inter', "Arial ", sans-serif;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
     margin-top: 33px;
+    margin-bottom: 0px;
 }
 @media screen and (max-width:999px) {
     .intro__list {
@@ -15,7 +16,7 @@
 }
 @media screen and (max-width:767px) {
     .intro__list {
-        max-width: 288px;
+        width: 100%;
         margin-top: 34px;
     }
 }
