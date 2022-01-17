@@ -3,5 +3,5 @@
     flex-direction: row;
     position: relative;
     right: 0px;
-    justify-content: end;
+    justify-content: space-between;
 }

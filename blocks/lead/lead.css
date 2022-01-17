@@ -5,12 +5,11 @@
     margin: 64px auto 0px auto;
     position: relative;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 @media screen and (max-width:1250px) {
     .lead {
         max-width: 928px;
-        margin: 48px 0px 0px 0px;
+        margin: 48px 48px 0px 48px;
     }
 }
 @media screen and (max-width:999px) {
@@ -22,6 +21,6 @@
 @media screen and (max-width:767px) {
     .lead {
         width: 100%;
-        margin: 39px 0px 0px 0px;
+        margin: 48px 0px 0px 0px;
     }
 }

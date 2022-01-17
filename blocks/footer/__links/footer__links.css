@@ -19,7 +19,6 @@
         max-width: 720px;
         margin: 88px 0px 0px 0px;
         grid-template-columns: 50px 57px 94px 86px 106px;
-        
     }
 }
 @media screen and (max-width:767px) {

@@ -15,7 +15,7 @@
 @media screen and (max-width:999px) {
     .lead__subtitle {
         width: 100%;
-        margin: 32px 72px 56px 56px;
+        margin: 32px auto 56px auto;
     }
 }
 @media screen and (max-width:767px) {

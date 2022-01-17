@@ -17,9 +17,9 @@
 @media screen and (max-width:767px) {
     .place__paragraph-text {
         max-width: 288px;
-        margin-left: 1.25px;
-        margin-right: 8.28px;
-        padding-bottom: 29px;
+        /* margin-left: 1.25px;
+        margin-right: 8.28px; */
+        padding-bottom: 25px;
     }
     .place__paragraph-text:nth-child(even) {
         padding-bottom: 0px; 

@@ -10,7 +10,7 @@
 @media screen and (max-width:1250px) {
     .places {
         max-width: 928px;
-        margin: 74px 14px 0px auto;
+        margin: 92px 48px 0px 48px;
         grid-template-rows: 640px 584px 584px 640px 584px;
     }
 }
