@@ -2,9 +2,10 @@
     max-width: 984px;
     display: flex;
     flex-direction: column;
-    margin: 64px 66px 0px 124px;
+    margin: 64px auto 0px auto;
     position: relative;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 @media screen and (max-width:1250px) {
     .lead {

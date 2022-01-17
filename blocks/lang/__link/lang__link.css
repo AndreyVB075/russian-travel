@@ -1,8 +1,8 @@
 .lang__link {
     color: #ffffff;
     text-decoration: none;
-    max-width: 29px;
     margin-top: 18px;
+    margin-right: 26px;
     display: flex;
     position: relative;
     align-items: center;
@@ -11,6 +11,9 @@
     line-height: 28px;
     font-weight: 400;
     font-family: 'Inter', "Arial ", sans-serif;
+}
+.lang__link:hover {
+    opacity: .8;
 }
 @media screen and (max-width:1250px) {
     .lang__link {
@@ -25,7 +28,6 @@
 }
 @media screen and (max-width:767px) {
     .lang__link {
-        max-width: 22px;
         margin-top: 2px;
         margin-right: 2px;
         font-size: 18px;
