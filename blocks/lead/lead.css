@@ -2,25 +2,23 @@
     max-width: 984px;
     display: flex;
     flex-direction: column;
-    margin: 64px auto 0px auto;
+    margin: 56px auto 0px auto;
     position: relative;
     box-sizing: border-box;
 }
 @media screen and (max-width:1250px) {
     .lead {
         max-width: 928px;
-        margin: 48px 48px 0px 48px;
+        margin: 48px auto 0px auto;
     }
 }
 @media screen and (max-width:999px) {
     .lead {
         max-width: 768px;
-        margin-top: 12px;
     }
 }
 @media screen and (max-width:767px) {
     .lead {
         width: 100%;
-        margin: 48px 0px 0px 0px;
     }
 }

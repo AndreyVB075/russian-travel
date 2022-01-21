@@ -9,13 +9,12 @@
 }
 @media screen and (max-width:1250px) {
     .lead__subtitle {
-        margin: 23px 130px 65px 158px;
+        margin: 32px auto 56px auto;
     }
 }
 @media screen and (max-width:999px) {
     .lead__subtitle {
         width: 100%;
-        margin: 32px auto 56px auto;
     }
 }
 @media screen and (max-width:767px) {

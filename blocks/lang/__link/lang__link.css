@@ -2,6 +2,7 @@
     color: #ffffff;
     text-decoration: none;
     margin-top: 18px;
+    margin-left: 18px;
     display: flex;
     position: relative;
     align-items: center;
@@ -13,6 +14,16 @@
 }
 .lang__link:hover {
     opacity: .8;
+}
+@media screen and (max-width:1250px) {
+    .lang__link {
+        margin-left: 16px;
+    }
+}
+@media screen and (max-width:999px) {
+    .lang__link {
+        margin-left: 18px;
+    }
 }
 @media screen and (max-width:767px) {
     .lang__link {

@@ -9,11 +9,6 @@
 .place__website-href:hover {
     opacity: .8;
 }
-@media screen and (max-width:896px) {
-    .place__website-href {
-        max-width: 352px;
-    }
-}
 @media screen and (max-width:544px) {
     .place__website-href {
       max-width: 288px;
