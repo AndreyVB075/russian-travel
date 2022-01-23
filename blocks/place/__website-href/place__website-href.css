@@ -12,6 +12,6 @@
 @media screen and (max-width:544px) {
     .place__website-href {
       max-width: 288px;
-      margin: 0px 0px 32px 0px;
+      margin: 0px;
     }
 }

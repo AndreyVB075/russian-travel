@@ -25,6 +25,6 @@
         margin: 64px auto 0px auto;
         grid-template-columns: 320px;
         grid-template-rows: auto;
-        gap: 49px;
+        gap: 50px;
     }
 }
